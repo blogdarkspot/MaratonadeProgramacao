@@ -2,13 +2,14 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
-int main (){
+int main() {
 	vector <char> resultado;
 	string valor;
 	int n, m;
-
+        
 	while (cin>>n>>m && n!=0 && m!=0){
 		resultado.clear();
 		cin>>valor;

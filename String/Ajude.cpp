@@ -1,13 +1,14 @@
 //https://www.urionlinejudge.com.br/judge/pt/problems/view/1367
 #include<iostream>
 #include<map>
+#include<string>
 
 using namespace std;
 
 int main ()
 {
     int n;
-
+    string s;
     while (cin >> n && n != 0){
        int s=0,p=0;
        map<string,int> tmp;
@@ -23,7 +24,8 @@ int main ()
                 tmp[problem]+=1;
        }
        cout << s << " " << p << endl;
-
+       
+       }
     }
 
     return 0;
